@@ -1,5 +1,3 @@
-4 min
+# Functional Patterns with Async/Await
 
-4 \* 60 = 240 s
-
-20s per slides => 240s / 20s/slides = 12 slides.
+Supporting code for my lightning talk for dotJS 2017
