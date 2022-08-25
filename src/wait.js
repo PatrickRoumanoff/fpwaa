@@ -1,13 +1,15 @@
 let count = 0;
 
-const wait = ms =>
-  new Promise((
-    resolve //
-  ) => setTimeout(resolve(), ms));
+const wait = (ms) =>
+  new Promise(
+    (
+      resolve //
+    ) => setTimeout(resolve(), ms)
+  );
 
-const waitLog = ms => {
+const waitLog = (ms) => {
   const counter = count++;
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     console.log(`start ${counter}`);
     setTimeout(() => {
       console.log(`end   ${counter}`);
